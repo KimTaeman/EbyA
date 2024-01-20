@@ -1,0 +1,50 @@
+:root {
+  --primary-white: #FFFFFF;
+  --secondary-white: #FFFEF9;
+  --black: #1F271B;
+  --primary-orange: #FF8811; 
+  --accent-orange: #FFA53D; 
+  --highlight-orange: #FFC669; 
+  --subtle-orange: #FFD896; 
+}
+
+body {
+  background-color: var(--primary-white);
+}
+
+/* Navigation */
+
+nav{
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  background-color: var(--primary-white);
+}
+
+.menu-link {
+  color: var(--primary-orange);
+  position: relative;
+}
+
+.menu-link:hover, .menu-link:focus  {
+  color: var(--primary-orange);
+}
+
+.menu-link::after {
+  content: "";
+  position: absolute;
+  background-color: var(--primary-orange);
+  height: 10px;
+  width: 0;
+  left: 0;
+  bottom: -12px;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+
+.menu-link:hover::after {
+  width: 100%;
+}
