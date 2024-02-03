@@ -48,3 +48,15 @@ nav{
 .menu-link:hover::after {
   width: 100%;
 }
+
+/* Landing */
+
+.landing {
+  background: rgb(255,136,17);
+  background: linear-gradient(180deg, #FF8811 12.7%, #FFC669 37.7%, #FFA53D 65.57%, #FBDEAF 85.25%, #FFFFFF 100%);
+}
+
+.slogan {
+  font-family: 'Reem Kufi Ink', sans-serif;
+  color:#000;
+}
