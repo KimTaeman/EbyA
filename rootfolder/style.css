@@ -75,3 +75,18 @@ nav{
   border-top: 12px solid var(--primary-orange);
   opacity: 1;
 }
+
+/* Benefits */
+
+.btn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  background-color: var(--primary-orange);
+  color: var(--primary-white);
+}
+
+.btn:hover {
+  background-color: var(--black);
+  color: var(--primary-white);
+  transform: scale(0.98);
+}
