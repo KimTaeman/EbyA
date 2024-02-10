@@ -90,3 +90,13 @@ nav{
   color: var(--primary-white);
   transform: scale(0.98);
 }
+
+/* Volunteer */
+
+.volunteer {
+  background-color: var(--accent-orange);
+}
+
+.volunteer-heading {
+  color: var(--primary-white);
+}
