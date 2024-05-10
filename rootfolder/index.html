@@ -272,7 +272,7 @@
       <div class="container">
         <h1 class="text-center mb-5">Q&A</h1>
         
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="qnaControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             
             <div class="carousel-item active">
@@ -301,11 +301,11 @@
 
           </div>
 
-          <button class="carousel-control-prev carousel-btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <button class="qna-carousel-btn" type="button" data-bs-target="#qnaControls" data-bs-slide="prev">
             <span class="fa-solid fa-arrow-left carousel-button" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next carousel-btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <button class="qna-carousel-btn" type="button" data-bs-target="#qnaControls" data-bs-slide="next">
             <span class="fa-solid fa-arrow-right carousel-button" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
@@ -317,23 +317,29 @@
 
     <!-- Recommendations -->
     <section>
-      <h1 id="recommendation">Our Recommendations</h1>
-    <div class="d-flex ms-5 justify-content-evenly">
-      <div class="card border-0" style="width: 18rem;">
-        <img src="../resources/GED.jpg" class="card-img-top rounded-5" id="card-img" alt="...">      </div>
-      <div class="card border-0" style="width: 18rem;">
-        <img src="../resources/GED.jpg" class="card-img-top rounded-5" id="card-img" alt="...">
+      <h1 class="text-center mb-5">Our Recommendations</h1>
+      <div class="container">
+        <ul class="recommendations-carousel">
+          <li class="card">
+            <img class="img img-fluid mb-3" src="../resources/A1.6.svg" alt="GED Treasure Collection">
+            <button class="btn rounded-pill px-5">Read Now</button>
+          </li>
+          <li class="card">
+            <img class="img img-fluid mb-3" src="../resources/A1.6.svg" alt="GED Treasure Collection">
+            <button class="btn rounded-pill px-5">Read Now</button>
+          </li>
+          <li class="card">
+            <img class="img img-fluid mb-3" src="../resources/A1.6.svg" alt="GED Treasure Collection">
+            <button class="btn rounded-pill px-5">Read Now</button>
+          </li>
+          <li class="card">
+            <img class="img img-fluid mb-3" src="../resources/A1.6.svg" alt="GED Treasure Collection">
+            <button class="btn rounded-pill px-5">Read Now</button>
+          </li>
+        </ul>
       </div>
-      <div class="card border-0" style="width: 18rem;">
-        <img src="../resources/GED.jpg" class="card-img-top rounded-5" id="card-img" alt="...">
-      </div>
-    </div>
-    <div class="d-flex ">
-      <a href="" class="btn rounded-5 text-white text-center" id="recommend-btn1">Read Now</a>
-      <a href="" class="btn rounded-5 py-2 px-2 text-white text-center" id="recommend-btn2">Read Now</a>
-      <a href="" class="btn rounded-5 py-2 px-2 text-white text-center" id="recommend-btn3">Read Now</a>
-    </div>
     </section>
+
 
     <!-- Volunteers -->
     <section class="p-5 volunteer">

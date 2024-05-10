@@ -169,15 +169,54 @@ nav{
   border-top-left-radius: 10px;
 }
 
+.qna-carousel-btn {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.qna-carousel-btn:last-of-type {
+  right: 0;
+}
+
 .carousel-button {
   background-color: var(--primary-orange);
+  font-size: 20px;
   color: var(--black);
   padding: 20px;
   border-radius: 50%;
 }
 
 /* Our Recommendation Section Start */
-#recommendation{
+
+.recommendations-carousel{
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 30px);
+  gap: 2rem;
+  overflow: hidden;
+}
+
+.card {
+  border: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .recommendations-carousel {
+    grid-auto-columns: calc((100% / 2) - 16px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .recommendations-carousel {
+    grid-auto-columns: 100%;
+  }
+}
+
+/* #recommendation{
   font-family: Reem Kufi;
   font-weight: bold;
   margin-top: 350px;
@@ -189,10 +228,10 @@ nav{
   width: 220px;
   height: 220px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-  backdrop-filter: (4px);
+  backdrop-filter: (4px); */
   /* margin-left: 150px; */
-}
-#recommend-btn1{
+/* } */
+/* #recommend-btn1{
   background-color: #FF8811;
   margin-top: 30px;
   margin-left: 100px;
@@ -222,7 +261,7 @@ nav{
   height: 40px;
   text-align: center;
   font-weight: bold;
-}
+} */
 /* Our Recommendation Section End */
 
 /* Volunteer */
