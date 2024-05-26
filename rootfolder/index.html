@@ -106,8 +106,10 @@
       </div>
     </section>
 
+    <hr class="divide">
+
     <!-- Updated Posts -->
-    <section>
+    <section class="p-5">
       <div class="container">
         <div class="update">
           <h1 class="text-center mb-5">Updated Post</h1>
@@ -267,25 +269,56 @@
     </section>
 
     <!-- Q&A -->
-    <section>
-      <div id="QA">
-        <h1>Q & A</h1>  
-        <div style="margin: auto;" class="d-flex">
-         <div id="card"></div>
-         <img src="../resources/🦆 icon _User Circle icon_.svg" id="card-profile">
-         <img src="../resources/🦆 icon _Question icon_.svg" id="card-icon">
-         <p id="QA-header">Which Benefits can we again by attending this org?</p>
-         <hr>
-         <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           <br>Sunt maxime perspiciatis harum culpa dicta modi perferendis 
-           <br>ipsum repellat eligendi nemo hic est, ipsam tempora! 
-           <br>Sapiente itaque fugiat similique reiciendis dolore!
-         </p>
+
+    <section class="p-5">
+      <div class="container">
+        <h1 class="text-center mb-5">Q&A</h1>
+        
+        <div id="qnaControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              <div class="wrapper">
+                <img src="../resources/🦆 icon _User Circle icon_.svg" alt="" class="logo img-fluid">
+                <img src="../resources/🦆 icon _Question icon_.svg" alt="" class="question">
+                <div class="text-wrapper">
+                  <h4 class="text-uppercase">Which benefits can we gain by attending this org?</h4>
+                  <hr>
+                  <h6 class="fw-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, cumque.</h6>
+                </div>
+            </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="wrapper">
+                <img src="../resources/🦆 icon _User Circle icon_.svg" alt="" class="logo img-fluid">
+                <img src="../resources/🦆 icon _Question icon_.svg" alt="" class="question">
+                <div class="text-wrapper">
+                  <h4 class="text-uppercase">Which benefits can we gain by attending this org?</h4>
+                  <hr>
+                  <h6 class="fw-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, cumque.</h6>
+                </div>
+            </div>
+            </div>
+
+          </div>
+
+          <button class="qna-carousel-btn" type="button" data-bs-target="#qnaControls" data-bs-slide="prev">
+            <span class="fa-solid fa-arrow-left carousel-button" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="qna-carousel-btn" type="button" data-bs-target="#qnaControls" data-bs-slide="next">
+            <span class="fa-solid fa-arrow-right carousel-button" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
        </div>
     </section>
 
+    <!-- Q&A End -->
+
     <!-- Recommendations -->
+<<<<<<< HEAD
     <section>
       <h1 id="recommendation">Our Recommendations</h1>
     <div class="d-flex ms-5 justify-content-evenly">
@@ -303,7 +336,34 @@
       <a href="" class="btn rounded-5 py-2 px-2 text-white text-center" id="recommend-btn2">Read Now</a>
       <a href="" class="btn rounded-5 py-2 px-2 text-white text-center" id="recommend-btn3">Read Now</a>
     </div>
+=======
+    <section class="p-5">
+      <h1 class="text-center mb-5">Our Recommendations</h1>
+      <div class="container recommendations">
+        <ul class="recommendations-carousel">
+          <li class="card">
+            <img class="img img-fluid mb-3" src="../resources/A1.6.svg" alt="GED Treasure Collection">
+            <button class="btn rounded-pill px-5">Read Now</button>
+          </li>
+          <li class="card">
+            <img class="img img-fluid mb-3" src="../resources/A1.6.svg" alt="GED Treasure Collection">
+            <button class="btn rounded-pill px-5">Read Now</button>
+          </li>
+          <li class="card">
+            <img class="img img-fluid mb-3" src="../resources/A1.6.svg" alt="GED Treasure Collection">
+            <button class="btn rounded-pill px-5">Read Now</button>
+          </li>
+          <li class="card">
+            <img class="img img-fluid mb-3" src="../resources/A1.6.svg" alt="GED Treasure Collection">
+            <button class="btn rounded-pill px-5">Read Now</button>
+          </li>
+        </ul>
+        <i class="fa-solid fa-arrow-left carousel-button"></i>
+        <i class="fa-solid fa-arrow-right carousel-button"></i>
+      </div>
+>>>>>>> d6f1011642c96e8344f2b64a6d86327dba97feed
     </section>
+
 
     <!-- Volunteers -->
     <section class="p-5 volunteer">
