@@ -244,3 +244,9 @@ nav{
   color: var(--primary-white);
   font-weight: 900;
 }
+
+/* Footer  */
+
+footer {
+  background-color: var(--subtle-orange);
+}

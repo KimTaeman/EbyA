@@ -1,0 +1,29 @@
+/* About Us */
+
+.about-us-vector {
+  position: absolute;
+  height: 50%;
+  z-index: -1;
+}
+
+.about-us-vector.up {
+  top: 10;
+  left: 0;
+  transform: translateX(-20%);
+}
+
+.about-us-vector.down {
+  bottom: 0;
+  right: 0;
+  transform: translateX(50%);
+}
+
+/* Background History  */
+
+.bg-history-container {
+  background-image: url("/resources/background_history.png");
+}
+
+.bg-history-container h1, .bg-history-container p {
+  color: #fff;
+}
