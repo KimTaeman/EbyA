@@ -21,7 +21,7 @@
 /* Background History  */
 
 .bg-history-container {
-  background-image: url("/resources/background_history.png");
+  background-image: url("../resources/background_history.png");
 }
 
 .bg-history-container h1, .bg-history-container p {
