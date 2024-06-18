@@ -198,9 +198,10 @@ nav{
   grid-auto-columns: calc((100% / 3) - 30px);
   gap: 2rem;
   overflow: hidden;
+  scroll-behavior: smooth;
 }
 
-.card {
+.recommendations-card {
   border: 0;
 }
 
@@ -233,6 +234,8 @@ nav{
     grid-auto-columns: 100%;
   }
 }
+
+
 
 /* Volunteer */
 
